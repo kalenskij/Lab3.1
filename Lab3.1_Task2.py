@@ -146,7 +146,6 @@ class Calendar:
         if not self.year == other.year:
             return self.year < other.year
         else:
-
             if not self.month == other.month:
                 return self.month < other.month
             else:

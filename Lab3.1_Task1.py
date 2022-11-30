@@ -19,8 +19,6 @@ class Rational:
     def numerator(self, value):
         if not isinstance(value, int):
             raise TypeError("Wrong numerator type")
-        if not value >= 0:
-            raise ValueError("Wrong numerator value")
         self.__numerator = value
 
     @property
